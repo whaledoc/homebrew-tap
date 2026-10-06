@@ -3,30 +3,30 @@
 class Whaledoc < Formula
   desc "Official command-line interface for WhaleDoc"
   homepage "https://whaledoc.io"
-  version "0.1.1"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.1.1/whaledoc-macos-arm64.tar.gz"
-      sha256 "000f7a3d34c0c7b6e8d0d328bac3e87fa62f236e0ee70f0a3426aaf363c3f329"
+      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.2.0/whaledoc-macos-arm64.tar.gz"
+      sha256 "acb3befa823618698bbd95cc8ae76090b8a9e1f9578ca9b7692e5060ce2da2ce"
     end
 
     on_intel do
-      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.1.1/whaledoc-macos-x64.tar.gz"
-      sha256 "d92ec6bae67d33c938db5ca21a1e40216a36442b6b613fbec7991e9ad49aa8f3"
+      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.2.0/whaledoc-macos-x64.tar.gz"
+      sha256 "d30c34ba0245fe86fdc35afa2178fe7777998d59844f6c28b74b120be193e41b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.1.1/whaledoc-linux-arm64.tar.gz"
-      sha256 "70574057f7a996dd4070a38bbbabf1ea1c1c7030d574df3d76b24018596d868a"
+      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.2.0/whaledoc-linux-arm64.tar.gz"
+      sha256 "49473a1399fe5c9c09d49d9267f291f401a089ce04b9a407cc34cadebb16026f"
     end
 
     on_intel do
-      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.1.1/whaledoc-linux-x64.tar.gz"
-      sha256 "ae0b9b5a0ce0d35815ec2b513e2da9b6ca172aa99fe04067572b79a1eefc1fc4"
+      url "https://github.com/whaledoc/whaledoc-cli/releases/download/v0.2.0/whaledoc-linux-x64.tar.gz"
+      sha256 "a76b99439c72e57661fabfb05f4e2d02102811659a838113b642fcd2dd29176e"
     end
   end
 
